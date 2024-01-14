@@ -85,7 +85,7 @@ navlinks{
    position: fixed;
    top: 10px;
    right: 50px;
-   display: inline-block;
+   display: block;
    text-align: center;
    background-color: #cbd5f4;
    width: auto;
