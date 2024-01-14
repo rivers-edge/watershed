@@ -1,0 +1,96 @@
+   /* BANNERS */
+body{
+   background: url(assets/dissoc.JPG);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 0 0;
+}
+
+navbanner{
+   min-width: 45%;
+   max-width: 50%;
+   height: 80px; 
+   position: static;
+   display: flex;
+   top: 10px;
+   z-index: 1;
+   margin: 10px 10px;
+   font-family: 'Produkt';
+   background: #cbd5f4; 
+   border-radius: 5pt; 
+   border: 1px black solid;
+}
+
+texbox{
+   position: static; 
+   display: inline-block;
+   min-width: 300px;
+   max-width: 500px;
+   text-align: left;
+   background-color: rgba(124, 174, 239, 0.869);
+   margin: 15px 10px;
+   padding: 5px 15px 5px 15px;
+   border: 2px outset rgba(17, 57, 57, 0.675);
+   font-family: 'Red Rose';
+   box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+   /* UNITS */
+intbox{
+   position: static;
+   display: block;
+   max-width: 90%;
+   min-width: 100px;
+   height: fit-content;
+   background-color: #FFF;
+   box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
+   padding: 10px 20px 10px 20px;
+   margin: 5px;
+   border-style: outset;
+}
+
+rightmargin{
+   position: static;
+   display: block;
+   margin-right: 10%;
+   margin-left: auto;
+   max-width: max-content;
+   min-width: 150px;
+}
+
+@font-face{
+   font-family: 'Red Rose';
+   src: url(assets/Red_Rose/RedRose-VariableFont_wght.ttf);
+}
+
+aline{
+   position: static;
+   display: block;
+   line-height: 120%;
+   text-align: start;
+   font-size: larger;
+   font-family: 'Red Rose';
+}
+
+bline{
+   position: static;
+   display: block;
+   line-height: 120%;
+   text-align: center;
+   font-family: 'Red Rose';
+}
+
+navlinks{
+   position: fixed;
+   top: 10px;
+   right: 50px;
+   display: inline-block;
+   text-align: center;
+   background-color: #cbd5f4;
+   width: auto;
+   height: auto;
+   padding: 5px;
+   border-radius: 2pt;
+   font-family: 'Produkt';
+}
