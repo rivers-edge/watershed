@@ -6,7 +6,16 @@ body{
    background-attachment: fixed;
    background-position: 0 0;
 }
-
+lovegroup{
+   position: static;
+   display: inline-flex;
+   width: 370px;
+   height: fit-content;
+   align-items: center;
+   border: 5px outset black;
+   align-content: center;
+   margin: 4%;
+}
 navbanner{
    min-width: 45%;
    max-width: 50%;
@@ -39,29 +48,22 @@ texbox{
    /* UNITS */
 intbox{
    position: static;
-   display: block;
-   max-width: 90%;
+   display: inline-block;
+   max-width: 20%;
    min-width: 100px;
    height: fit-content;
    background-color: #FFF;
    box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
-   padding: 10px 20px 10px 20px;
-   margin: 5px;
+   padding: 20px;
+   margin: 5px 20px 5px 20px;
    border-style: outset;
-}
-
-rightmargin{
-   position: static;
-   display: block;
-   margin-right: 10%;
-   margin-left: auto;
-   max-width: max-content;
-   min-width: 150px;
+   text-align: center;
 }
 
 @font-face{
    font-family: 'Red Rose';
    src: url(assets/Red_Rose/RedRose-VariableFont_wght.ttf);
+   font-size: normal;
 }
 
 aline{
@@ -69,7 +71,7 @@ aline{
    display: block;
    line-height: 120%;
    text-align: start;
-   font-size: larger;
+   font-size: normal;
    font-family: 'Red Rose';
 }
 
@@ -93,4 +95,19 @@ navlinks{
    padding: 5px;
    border-radius: 2pt;
    font-family: 'Produkt';
+}
+
+qhud{
+   position: static; 
+   display: inline-block;
+   text-shadow:rgba(124, 174, 239, 0.869);
+   min-width: 300px;
+   max-width: 500px;
+   text-align: left;
+   background-color: rgba(186, 206, 232, 0.922);
+   margin: 15px 10px;
+   padding: 5px 15px 5px 15px;
+   border: 2px outset rgba(17, 57, 57, 0.675);
+   font-family: 'Produkt';
+   box-shadow: 2px 4px 4px 3px rgba(34, 117, 205, 0.542);
 }
