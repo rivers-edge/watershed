@@ -56,7 +56,7 @@ identitytags{
 }
 
 libox{
-   display: block;
+   display: inline-block;
    width: fit-content;
    max-width: 220px;
    height: fit-content;
@@ -66,7 +66,7 @@ libox{
    background: rgba(255, 255, 255, 0.871);
    color: black;
    text-align: center;
-   font-family: 'Spectral';
+   font-family: 'Red Rose';
    font-size: small;
    border: 1px black solid;
    padding: 3px 6px 3px 6px;
@@ -75,29 +75,39 @@ libox{
    border-radius: 2pt;
 }
 
-intbox{
-   position: static;
-   display: block;
-   text-align: center;
-   font-family: 'Spectral';
-   background-color: #FFF;
-   box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
-   padding: 10px 20px 10px 20px;
-   margin: 5px;
-   border-style: outset;
-   width: 150px;
-}
-
 navlinks{
-   position: fixed;
+   position: static;
    top: 10px;
    right: 50px;
    display: block;
    text-align: center;
    background-color: #cbd5f4;
-   width: auto;
-   height: auto;
-   padding: 5px;
+   width: fit-content;
+   height: fit-content;
+   padding: 10px;
+   border: 2px black solid;
    border-radius: 2pt;
    font-family: 'Produkt';
 }
+
+.dropdown{
+   position: relative;
+   display: block;
+ }
+ 
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9d0;
+   min-width: 70px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   padding: 8px 8px;
+   z-index: 1;
+   margin: 5px;
+   border-radius: 2pt;
+ }
+ 
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+

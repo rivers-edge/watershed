@@ -8,13 +8,14 @@ body{
 }
 lovegroup{
    position: static;
-   display: inline-flex;
-   width: 370px;
+   display: block;
+   width: fit-content;
    height: fit-content;
    align-items: center;
    border: 5px outset black;
+   justify-content: center;
    align-content: center;
-   margin: 4%;
+   align-self: center;
 }
 navbanner{
    min-width: 45%;
@@ -34,8 +35,8 @@ navbanner{
 texbox{
    position: static; 
    display: inline-block;
-   min-width: 300px;
-   max-width: 500px;
+   min-width: 70%;
+   max-width: 95%;
    text-align: left;
    background-color: rgba(124, 174, 239, 0.869);
    margin: 15px 10px;
@@ -49,15 +50,15 @@ texbox{
 intbox{
    position: static;
    display: inline-block;
-   max-width: 20%;
-   min-width: 100px;
+   width: 200px;
    height: fit-content;
    background-color: #FFF;
    box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
    padding: 20px;
-   margin: 5px 20px 5px 20px;
+   margin: 10px 20px;
    border-style: outset;
    text-align: center;
+   align-self: center;
 }
 
 @font-face{
@@ -101,8 +102,7 @@ qhud{
    position: static; 
    display: inline-block;
    text-shadow:rgba(124, 174, 239, 0.869);
-   min-width: 300px;
-   max-width: 500px;
+   width: 92%;
    text-align: left;
    background-color: rgba(186, 206, 232, 0.922);
    margin: 15px 10px;
