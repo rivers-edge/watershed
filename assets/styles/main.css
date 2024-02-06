@@ -1,0 +1,79 @@
+/*OBJECTS*/
+hr{
+   min-width: 80px;
+   max-width: 250px;
+}
+
+idbanner{
+   position: static;
+   z-index: -1;
+   display: block;
+   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
+   text-align: center;
+   margin-left: 8%;
+   margin-top: 0px;
+   width: 320px;
+   height: 1000px;
+   background: var(--Transparent-Fadeout, linear-gradient(180deg, rgba(204, 206, 220, 0.90) -27.57%, rgba(199, 255, 242, 0.00) 89.86%))
+}
+
+navbanner{
+   width:90%;
+   height: 80px; 
+   position: static;
+   display: block;
+   top: 10px;
+   margin: auto;
+   font-family: 'Produkt';
+   background: #CBE8F4; 
+   border-radius: 5pt; 
+   border: 1px black solid;
+}
+
+identitytags{
+   display: block;
+   position: static;
+   color: black;
+   font-size: 14px;
+   font-family: 'Proxima Nova';
+   font-weight: 600;
+   line-height: 16px;
+   letter-spacing: 2.56px;
+   text-align: center;
+   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+navlinks{
+   position: static;
+   display: block;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto; 
+   margin-top: 10px;
+   background-color: #cbd5f4;
+   width: 80px;
+   height: min-content;
+   padding: 2px;
+   border: 0.5px black solid;
+   border-radius: 2pt;
+   font-family: 'Produkt';
+   font-size: small;
+   z-index: 5;
+}
+
+knavlinks{
+   position: static;
+   display: block;
+   text-align: center;
+   margin: auto;
+   background-color: #cbd5f4;
+   width: min-content;
+   height: min-content;
+   padding: 2px;
+   border: 0.5px black solid;
+   border-radius: 2pt;
+   font-family: 'Produkt';
+   font-size: small;
+   z-index: 5;
+}
+
