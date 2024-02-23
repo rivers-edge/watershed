@@ -14,7 +14,7 @@ idbanner{
    margin-top: 0px;
    width: 270px;
    height: 1000px;
-   background: var(--Transparent-Fadeout, linear-gradient(180deg, rgba(204, 206, 220, 0.90) -27.57%, rgba(199, 255, 242, 0.00) 89.86%))
+   background: var(--Transparent-Fadeout, linear-gradient(180deg, rgba(204, 206, 220, 0.90) -27.57%, rgba(199, 255, 242, 0.00) 89.86%));
 }
 
 navbanner{
@@ -77,3 +77,14 @@ knavlinks{
    z-index: 5;
 }
 
+discord{
+   position: fixed;
+   display: block;
+   padding: 15px;
+   right: 10px;
+   bottom: 20px;
+   width: 275px;
+   height: 400px;
+   background: var(--Transparent-Fadeout, linear-gradient(180deg, rgba(204, 206, 220, 0.90) -27.57%, rgba(199, 255, 242, 0.00) 89.86%));
+   border-radius: 4%;
+}
