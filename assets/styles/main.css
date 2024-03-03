@@ -88,3 +88,14 @@ discord{
    background: var(--Transparent-Fadeout, linear-gradient(180deg, rgba(204, 206, 220, 0.90) -27.57%, rgba(199, 255, 242, 0.00) 89.86%));
    border-radius: 4%;
 }
+
+button{
+   display: block;
+   position: static;
+   margin: auto;
+   border: 2px black solid;
+   border-radius: 5pt;
+   padding: 10px;
+   background:rgba(220, 100, 100, 0.69);
+   z-index: 3;
+}
