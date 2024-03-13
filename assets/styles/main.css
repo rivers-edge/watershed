@@ -69,11 +69,12 @@ knavlinks{
    background-color: #cbd5f4;
    width: min-content;
    height: min-content;
-   padding: 2px;
+   padding-left: 10px;
+   padding-right: 10px;
    border: 0.5px black solid;
    border-radius: 2pt;
    font-family: 'Produkt';
-   font-size: small;
+   font-size: x-small;
    z-index: 5;
 }
 
