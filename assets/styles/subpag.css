@@ -56,4 +56,13 @@ bline{
    font-family: 'Red Rose';
 }
 
-
+banner{
+   display: inline-block;
+   position: static;
+   background-color: thistle;
+   margin: 2%;
+   padding: 3%;
+   border-radius: 2pt;
+   font-family: "Red Rose";
+   font-size: x-large;
+}
