@@ -1,32 +1,4 @@
 /* HEADER OBJECTS */
-
-idbanner{
-   position: static;
-   z-index: -1;
-   display: block;
-   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
-   text-align: center;
-   margin-left: 8%;
-   margin-top: 0px;
-   width: 270px;
-   height: 1000px;
-   background: var(--Transparent-Fadeout, linear-gradient(180deg, rgba(204, 206, 220, 0.90) -27.57%, rgba(199, 255, 242, 0.00) 89.86%));
-}
-
-navbanner{
-   width:90%;
-   height: 140px; 
-   position: static;
-   display: block;
-   top: 10px;
-   margin: auto;
-   font-family: 'Produkt';
-   background: #CBE8F4; 
-   border-radius: 5pt; 
-   border: 1px black solid;
-}
-
-
 banner{
    display: inline-block;
    position: static;
@@ -37,7 +9,6 @@ banner{
    font-family: "Red Rose";
    font-size: x-large;
 }
-
 identitytags{
    display: block;
    position: static;
@@ -51,6 +22,15 @@ identitytags{
    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
 }
 
+/* BUTTONS */
+discord{
+   position: static;
+   display: block;
+   margin: 50px;
+   padding: 15px;
+   background: var(--Transparent-Fadeout, linear-gradient(180deg, rgba(204, 206, 220, 0.90) -27.57%, rgba(199, 255, 242, 0.00) 89.86%));
+   border-radius: 4%;
+}
 navlinks{
    position: static;
    display: block;
@@ -68,7 +48,7 @@ navlinks{
    font-size: small;
    z-index: 5;
 }
-
+navlinks:hover {background-color: #88a8dbd9;}
 knavlinks{
    position: static;
    display: block;
@@ -86,36 +66,33 @@ knavlinks{
    z-index: 5;
 }
 
-discord{
+/* EMPTY BLOCKS */
+navbanner{
+   width:90%;
+   height: 140px; 
    position: static;
    display: block;
-   margin: 50px;
-   padding: 15px;
+   top: 10px;
+   margin: auto;
+   font-family: 'Produkt';
+   background: #CBE8F4; 
+   border-radius: 5pt; 
+   border: 1px black solid;
+}
+idbanner{
+   position: static;
+   z-index: -1;
+   display: block;
+   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
+   text-align: center;
+   margin-left: 8%;
+   margin-top: 0px;
+   width: 270px;
+   height: 1000px;
    background: var(--Transparent-Fadeout, linear-gradient(180deg, rgba(204, 206, 220, 0.90) -27.57%, rgba(199, 255, 242, 0.00) 89.86%));
-   border-radius: 4%;
 }
 
-idbo{
-   font-family: "Produkt";
-   position: static;
-   display: block;
-   background-color: rgb(167, 205, 239);
-   padding: 10pt;
-   text-align: left;
-   margin: 5%;
-}
-
-stylea{
-   font-family: 'Times New Roman', Times, serif;
-   font-size: Small;
-}
-styleb{
-   font-family: "Red Rose";
-   font-size: smaller;
-}
-
-   /* BANNERS */
-   
+/* TEXT BOXES */
 texbox{
    position: relative; 
    float: left;
@@ -129,8 +106,6 @@ texbox{
    font-family: 'Red Rose';
    box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
    }
-   
-/* UNITS */
 intbox{
    position: static;
    display: inline-block;
@@ -143,25 +118,12 @@ intbox{
    border-style: outset;
    text-align: center;
 }
-/* FONTS */
-aline{
-   line-height: 120%;
-   text-align: center;
-   font-size: normal;
-   font-family: 'Red Rose';
-}
-
-bline{
-   line-height: 120%;
-   text-align: center;
-   font-family: 'Red Rose';
-}
-
-hr{
-   min-width: 80px;
-   max-width: 250px;
-}
-
-p{
+idbo{
    font-family: "Produkt";
+   position: static;
+   display: block;
+   background-color: rgb(167, 205, 239);
+   padding: 10pt;
+   text-align: left;
+   margin: 5%;
 }
