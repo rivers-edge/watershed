@@ -6,7 +6,7 @@ banner{
    margin: 2%;
    padding: 3%;
    border-radius: 2pt;
-   font-family: "Red Rose";
+   font-family: 'Red Rose';
    font-size: x-large;
 }
 identitytags{
@@ -74,7 +74,7 @@ navbanner{
    display: block;
    top: 10px;
    margin: auto;
-   font-family: 'Produkt';
+   font-family: 'Dosis';
    background: #CBE8F4; 
    border-radius: 5pt; 
    border: 1px black solid;
