@@ -69,12 +69,10 @@ knavlinks{
 /* EMPTY BLOCKS */
 navbanner{
    width:90%;
-   height: 140px; 
+   height: 70px; 
    position: static;
    display: block;
-   top: 10px;
    margin: auto;
-   font-family: 'Dosis';
    background: #CBE8F4; 
    border-radius: 5pt; 
    border: 1px black solid;
@@ -119,11 +117,42 @@ intbox{
    text-align: center;
 }
 idbo{
-   font-family: "Produkt";
    position: static;
    display: block;
    background-color: rgb(167, 205, 239);
    padding: 10pt;
    text-align: left;
    margin: 5%;
+}
+
+prns{
+  position: static;
+  font-family: Dosis;
+  padding: 25px;
+  margin: 10px;
+}
+
+stylea{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: Small;
+}
+styleb{
+  font-family: 'Red Rose';
+  font-size: smaller;
+}
+/* FONTS */
+aline{
+  line-height: 120%;
+  text-align: center;
+  font-size: normal;
+  font-family: 'Dosis';
+}
+bline{
+  line-height: 120%;
+  text-align: center;
+  font-family: 'Red Rose';
+}
+hr{
+  min-width: 80px;
+  max-width: 250px;
 }
