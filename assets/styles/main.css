@@ -21,7 +21,7 @@ identitytags{
    text-align: center;
    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
 }
-
+identitytags:hover {text-shadow: 2px 2px 1px #364058ae; font-size: 16px;}
 /* BUTTONS */
 discord{
    position: static;
@@ -49,7 +49,8 @@ navlinks{
    z-index: 5;
 }
 navlinks:hover {background-color: #88a8dbd9;}
-knavlinks{
+
+linksilike {
    position: static;
    display: block;
    text-align: center;
@@ -124,14 +125,12 @@ idbo{
    text-align: left;
    margin: 5%;
 }
-
 prns{
   position: static;
   font-family: Dosis;
   padding: 25px;
   margin: 10px;
 }
-
 stylea{
   font-family: 'Times New Roman', Times, serif;
   font-size: Small;
