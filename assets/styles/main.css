@@ -102,7 +102,7 @@ texbox{
    margin: 10px 10px;
    padding: 5px 15px 5px 15px;
    border: 2px outset rgba(17, 57, 57, 0.675);
-   font-family: 'Red Rose';
+   font-family: 'Dosis';
    box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
    }
 intbox{
@@ -115,6 +115,7 @@ intbox{
    box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
    padding: 20px;
    border-style: outset;
+   font-family: 'Dosis';
    text-align: center;
 }
 idbo{
