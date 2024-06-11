@@ -62,7 +62,12 @@
                 font: large "Dosis";
             }
     </style>
-
+    <script>
+        document.getElementById("dropdown").onclick = function(){dropdown()};
+        function dropdown() {
+            document.getElementsByClassName("dropdown-content").classList.toggle("show");
+        }
+    </script>
  </head>
  <body>
     <navbanner>
@@ -73,7 +78,7 @@
             <div class="dropdown">
                 <span>Menu</span>
                 <div class="dropdown-content" style="font-size: small;">
-                    <p><a href="https://rivers-edge.github.io/watershed/about.html"><img src="assets/icons/favicon.png" style="width: 30px; vertical-align: middle; margin: 4px; border-radius: 5pt;">Home</a> </p>
+                    <p><a href="https://rivers-edge.github.io/watershed/home.html"><img src="assets/icons/favicon.png" style="width: 30px; vertical-align: middle; margin: 4px; border-radius: 5pt;">Home</a> </p>
                     <p><a href="https://rivers-edge.github.io/watershed/about.html"><img src="assets/icons/me.png" style="width: 30px; vertical-align: middle; margin: 4px;">About Me</a> </p>
                     <p><a href="https://rivers-edge.github.io/watershed/our-flowering-earth.html"><img src="assets/icons/plant-cell.png" style="width: 30px; vertical-align: middle; margin: 4px;">Our Flowering Earth</a> </p>
                     <p><a href="https://rivers-edge.github.io/watershed/art-gallery.html"><img src="assets/icons/splash.png" style="width: 30px; vertical-align: middle; margin: 4px;">Art Gallery</a> </p>

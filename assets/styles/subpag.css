@@ -13,7 +13,7 @@
     z-index: 1;
     text-align: left;
 } 
-.dropdown:hover .dropdown-content {
+.dropdown:hver .dropdown-content {
     display: block;
 }
 dropmenu{
