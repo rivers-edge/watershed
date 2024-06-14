@@ -13,10 +13,7 @@
     z-index: 1;
     text-align: left;
 } 
-.dropdown:hver .dropdown-content {
-    display: block;
-}
-dropmenu{
+.dropdown-button {
     display: block;
     position: static;
     background: var(--Transparent-Fadeout, linear-gradient(180deg, rgb(229, 236, 249) -27.57%, rgba(199, 255, 242, 0.00) 89.86%));
@@ -29,3 +26,16 @@ dropmenu{
     width: 200px;
     margin: 10px;
 }
+.dropdown-button:hover {
+    background-color: blue;
+}
+
+.dropdown-link{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-link:hover {background-color: blueviolet;}
+
+.show {display:block;}
