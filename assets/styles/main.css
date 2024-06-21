@@ -78,6 +78,7 @@ navbanner{
    border-radius: 5pt; 
    border: 1px black solid;
 }
+
 idbanner{
    position: static;
    z-index: -1;
