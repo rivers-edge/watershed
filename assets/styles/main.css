@@ -75,7 +75,7 @@ navbanner{
    display: block;
    margin: auto;
    background: #CBE8F4; 
-   border-radius: 5pt; 
+   border-radius: 5pt;
    border: 1px black solid;
 }
 
@@ -94,28 +94,48 @@ idbanner{
 
 /* TEXT BOXES */
 texbox{
-   position: relative; 
+   position: static; 
    float: left;
+   clear: both;
    height: fit-content;
-   width: 300px;
+   min-width: 30%;
    text-align: left;
    background-color: rgba(124, 174, 239, 0.869);
-   margin: 10px 10px;
-   padding: 5px 15px 5px 15px;
-   border: 2px outset rgba(17, 57, 57, 0.675);
+   margin: 5px;
+   padding: 5px 10px 5px 10px;
+   border: 2px outset rgba(18, 54, 54, 0.708);
+   border-radius: 5pt;
+   font-family: 'Dosis';
+   box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
+   }
+texboxtiny{
+   position: static; 
+   float: right;
+   height: fit-content;
+   max-width: 30%;
+   text-align: left;
+   background-color: rgba(124, 174, 239, 0.869);
+   margin: 5px;
+   padding: 5px 10px 5px 10px;
+   border: 2px outset rgba(18, 54, 54, 0.708);
+   border-radius: 5pt;
    font-family: 'Dosis';
    box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
    }
 intbox{
    position: static;
-   display: inline-block;
-   width: fit-content;
+   display: inline;
+   float: left;
+   clear: none;
+   min-width: 100px;
    height: fit-content;
+   max-width: max-content;
    margin: 10px;
    background-color: #FFF;
    box-shadow: 2px 4px 4px 3px rgba(0, 0, 0, 0.25);
    padding: 20px;
    border-style: outset;
+   border-radius: 15%;
    font-family: 'Dosis';
    text-align: center;
 }
@@ -123,7 +143,7 @@ idbo{
    position: static;
    display: block;
    background-color: rgb(167, 205, 239);
-   padding: 10pt;
+   padding: 4pt;
    text-align: left;
    margin: 5%;
 }
