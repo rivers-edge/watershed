@@ -151,8 +151,10 @@ idbo{
 /* FONTS */
 prns{
   position: static;
+  display: block;
   font-family: Dosis;
-  padding: 25px;
+  top: 100px;
+  padding: 1px;
   margin: 10px;
 }
 
