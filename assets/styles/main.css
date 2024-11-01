@@ -70,7 +70,7 @@ linksilike {
 /* EMPTY BLOCKS */
 navbanner{
    width:90%;
-   height: 70px; 
+   height: 80px; 
    position: static;
    display: block;
    margin: auto;
@@ -178,3 +178,5 @@ galleria{
   border-radius: 5px; 
   border: 1px black solid;
 }
+
+.disboard{list-style-type: none;}
